@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B1CF5662B93947100A3A759 /* GoalSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CF5652B93947100A3A759 /* GoalSelectionView.swift */; };
+		8B1CF5682B95009800A3A759 /* MyAsanaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CF5672B95009800A3A759 /* MyAsanaView.swift */; };
+		8B1CF56A2B9500B500A3A759 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CF5692B9500B500A3A759 /* UserProfileView.swift */; };
+		8B99AA6A2B92821200A866D7 /* AsanaWellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AA692B92821200A866D7 /* AsanaWellApp.swift */; };
+		8B99AA6E2B92821900A866D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B99AA6D2B92821900A866D7 /* Assets.xcassets */; };
+		8B99AA712B92821900A866D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B99AA702B92821900A866D7 /* Preview Assets.xcassets */; };
+		8B99AA7B2B92821900A866D7 /* AsanaWellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AA7A2B92821900A866D7 /* AsanaWellTests.swift */; };
+		8B99AA852B92821900A866D7 /* AsanaWellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AA842B92821900A866D7 /* AsanaWellUITests.swift */; };
+		8B99AA872B92821900A866D7 /* AsanaWellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AA862B92821900A866D7 /* AsanaWellUITestsLaunchTests.swift */; };
+		8B99AA9B2B9283B200A866D7 /* Asana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AA9A2B9283B200A866D7 /* Asana.swift */; };
+		8B99AA9D2B9283E300A866D7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AA9C2B9283E300A866D7 /* User.swift */; };
+		8B99AAA42B92847800A866D7 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AAA32B92847800A866D7 /* SplashView.swift */; };
+		8B99AAA62B92848700A866D7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AAA52B92848700A866D7 /* LoginView.swift */; };
+		8B99AAA82B92849B00A866D7 /* GmailSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AAA72B92849B00A866D7 /* GmailSignupView.swift */; };
+		8B99AAAA2B9284AF00A866D7 /* PhoneSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AAA92B9284AF00A866D7 /* PhoneSignupView.swift */; };
+		8B99AAAC2B9284C800A866D7 /* ProfileSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AAAB2B9284C800A866D7 /* ProfileSetupView.swift */; };
+		8B99AAAE2B9284F400A866D7 /* SettingupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AAAD2B9284F400A866D7 /* SettingupView.swift */; };
+		8B99AAB02B92850400A866D7 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AAAF2B92850400A866D7 /* DashboardView.swift */; };
+		8B99AAB22B92851900A866D7 /* AsanaDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AAB12B92851900A866D7 /* AsanaDetailsView.swift */; };
+		8B99AAB42B92854000A866D7 /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AAB32B92854000A866D7 /* DataManger.swift */; };
+		8B99AAB62B92855100A866D7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AAB52B92855100A866D7 /* NetworkManager.swift */; };
+		8B99AAB82B92856A00A866D7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AAB72B92856A00A866D7 /* Constants.swift */; };
+		8B99AABA2B92857C00A866D7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AAB92B92857C00A866D7 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B99AA772B92821900A866D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B99AA5E2B92821200A866D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B99AA652B92821200A866D7;
+			remoteInfo = AsanaWell;
+		};
+		8B99AA812B92821900A866D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B99AA5E2B92821200A866D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B99AA652B92821200A866D7;
+			remoteInfo = AsanaWell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B1CF5652B93947100A3A759 /* GoalSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalSelectionView.swift; sourceTree = "<group>"; };
+		8B1CF5672B95009800A3A759 /* MyAsanaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAsanaView.swift; sourceTree = "<group>"; };
+		8B1CF5692B9500B500A3A759 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		8B99AA662B92821200A866D7 /* AsanaWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsanaWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B99AA692B92821200A866D7 /* AsanaWellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsanaWellApp.swift; sourceTree = "<group>"; };
+		8B99AA6D2B92821900A866D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B99AA702B92821900A866D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B99AA762B92821900A866D7 /* AsanaWellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsanaWellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B99AA7A2B92821900A866D7 /* AsanaWellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsanaWellTests.swift; sourceTree = "<group>"; };
+		8B99AA802B92821900A866D7 /* AsanaWellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsanaWellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B99AA842B92821900A866D7 /* AsanaWellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsanaWellUITests.swift; sourceTree = "<group>"; };
+		8B99AA862B92821900A866D7 /* AsanaWellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsanaWellUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B99AA9A2B9283B200A866D7 /* Asana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asana.swift; sourceTree = "<group>"; };
+		8B99AA9C2B9283E300A866D7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8B99AAA32B92847800A866D7 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		8B99AAA52B92848700A866D7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8B99AAA72B92849B00A866D7 /* GmailSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailSignupView.swift; sourceTree = "<group>"; };
+		8B99AAA92B9284AF00A866D7 /* PhoneSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneSignupView.swift; sourceTree = "<group>"; };
+		8B99AAAB2B9284C800A866D7 /* ProfileSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetupView.swift; sourceTree = "<group>"; };
+		8B99AAAD2B9284F400A866D7 /* SettingupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingupView.swift; sourceTree = "<group>"; };
+		8B99AAAF2B92850400A866D7 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		8B99AAB12B92851900A866D7 /* AsanaDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsanaDetailsView.swift; sourceTree = "<group>"; };
+		8B99AAB32B92854000A866D7 /* DataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
+		8B99AAB52B92855100A866D7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8B99AAB72B92856A00A866D7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8B99AAB92B92857C00A866D7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B99AA632B92821200A866D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B99AA732B92821900A866D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B99AA7D2B92821900A866D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B99AA5D2B92821200A866D7 = {
+			isa = PBXGroup;
+			children = (
+				8B99AA682B92821200A866D7 /* AsanaWell */,
+				8B99AA792B92821900A866D7 /* AsanaWellTests */,
+				8B99AA832B92821900A866D7 /* AsanaWellUITests */,
+				8B99AA672B92821200A866D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B99AA672B92821200A866D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AA662B92821200A866D7 /* AsanaWell.app */,
+				8B99AA762B92821900A866D7 /* AsanaWellTests.xctest */,
+				8B99AA802B92821900A866D7 /* AsanaWellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B99AA682B92821200A866D7 /* AsanaWell */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AA692B92821200A866D7 /* AsanaWellApp.swift */,
+				8B99AA942B9282BA00A866D7 /* Models */,
+				8B99AA932B9282AE00A866D7 /* Views */,
+				8B99AA962B9282E100A866D7 /* Utilities */,
+				8B99AA952B9282C700A866D7 /* Controllers */,
+				8B99AA972B9282F900A866D7 /* Resources */,
+				8B99AA6F2B92821900A866D7 /* Preview Content */,
+			);
+			path = AsanaWell;
+			sourceTree = "<group>";
+		};
+		8B99AA6F2B92821900A866D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AA702B92821900A866D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B99AA792B92821900A866D7 /* AsanaWellTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AA7A2B92821900A866D7 /* AsanaWellTests.swift */,
+			);
+			path = AsanaWellTests;
+			sourceTree = "<group>";
+		};
+		8B99AA832B92821900A866D7 /* AsanaWellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AA842B92821900A866D7 /* AsanaWellUITests.swift */,
+				8B99AA862B92821900A866D7 /* AsanaWellUITestsLaunchTests.swift */,
+			);
+			path = AsanaWellUITests;
+			sourceTree = "<group>";
+		};
+		8B99AA932B9282AE00A866D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AAA22B92844D00A866D7 /* SplashScreen */,
+				8B99AAA12B92843A00A866D7 /* Authentication */,
+				8B99AAA02B92842B00A866D7 /* ProfileSetup */,
+				8B99AA9F2B92841E00A866D7 /* Dashboard */,
+				8B99AA9E2B92840900A866D7 /* AsanaDetails */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B99AA942B9282BA00A866D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AA9A2B9283B200A866D7 /* Asana.swift */,
+				8B99AA9C2B9283E300A866D7 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B99AA952B9282C700A866D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AAB32B92854000A866D7 /* DataManger.swift */,
+				8B99AAB52B92855100A866D7 /* NetworkManager.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B99AA962B9282E100A866D7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AAB72B92856A00A866D7 /* Constants.swift */,
+				8B99AAB92B92857C00A866D7 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8B99AA972B9282F900A866D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AA6D2B92821900A866D7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B99AA9E2B92840900A866D7 /* AsanaDetails */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AAB12B92851900A866D7 /* AsanaDetailsView.swift */,
+			);
+			path = AsanaDetails;
+			sourceTree = "<group>";
+		};
+		8B99AA9F2B92841E00A866D7 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AAAF2B92850400A866D7 /* DashboardView.swift */,
+				8B1CF5672B95009800A3A759 /* MyAsanaView.swift */,
+				8B1CF5692B9500B500A3A759 /* UserProfileView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		8B99AAA02B92842B00A866D7 /* ProfileSetup */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AAAB2B9284C800A866D7 /* ProfileSetupView.swift */,
+				8B99AAAD2B9284F400A866D7 /* SettingupView.swift */,
+				8B1CF5652B93947100A3A759 /* GoalSelectionView.swift */,
+			);
+			path = ProfileSetup;
+			sourceTree = "<group>";
+		};
+		8B99AAA12B92843A00A866D7 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AAA52B92848700A866D7 /* LoginView.swift */,
+				8B99AAA72B92849B00A866D7 /* GmailSignupView.swift */,
+				8B99AAA92B9284AF00A866D7 /* PhoneSignupView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		8B99AAA22B92844D00A866D7 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8B99AAA32B92847800A866D7 /* SplashView.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B99AA652B92821200A866D7 /* AsanaWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B99AA8A2B92821900A866D7 /* Build configuration list for PBXNativeTarget "AsanaWell" */;
+			buildPhases = (
+				8B99AA622B92821200A866D7 /* Sources */,
+				8B99AA632B92821200A866D7 /* Frameworks */,
+				8B99AA642B92821200A866D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsanaWell;
+			productName = AsanaWell;
+			productReference = 8B99AA662B92821200A866D7 /* AsanaWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B99AA752B92821900A866D7 /* AsanaWellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B99AA8D2B92821900A866D7 /* Build configuration list for PBXNativeTarget "AsanaWellTests" */;
+			buildPhases = (
+				8B99AA722B92821900A866D7 /* Sources */,
+				8B99AA732B92821900A866D7 /* Frameworks */,
+				8B99AA742B92821900A866D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B99AA782B92821900A866D7 /* PBXTargetDependency */,
+			);
+			name = AsanaWellTests;
+			productName = AsanaWellTests;
+			productReference = 8B99AA762B92821900A866D7 /* AsanaWellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B99AA7F2B92821900A866D7 /* AsanaWellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B99AA902B92821900A866D7 /* Build configuration list for PBXNativeTarget "AsanaWellUITests" */;
+			buildPhases = (
+				8B99AA7C2B92821900A866D7 /* Sources */,
+				8B99AA7D2B92821900A866D7 /* Frameworks */,
+				8B99AA7E2B92821900A866D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B99AA822B92821900A866D7 /* PBXTargetDependency */,
+			);
+			name = AsanaWellUITests;
+			productName = AsanaWellUITests;
+			productReference = 8B99AA802B92821900A866D7 /* AsanaWellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B99AA5E2B92821200A866D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8B99AA652B92821200A866D7 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					8B99AA752B92821900A866D7 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 8B99AA652B92821200A866D7;
+					};
+					8B99AA7F2B92821900A866D7 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 8B99AA652B92821200A866D7;
+					};
+				};
+			};
+			buildConfigurationList = 8B99AA612B92821200A866D7 /* Build configuration list for PBXProject "AsanaWell" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B99AA5D2B92821200A866D7;
+			productRefGroup = 8B99AA672B92821200A866D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B99AA652B92821200A866D7 /* AsanaWell */,
+				8B99AA752B92821900A866D7 /* AsanaWellTests */,
+				8B99AA7F2B92821900A866D7 /* AsanaWellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B99AA642B92821200A866D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B99AA712B92821900A866D7 /* Preview Assets.xcassets in Resources */,
+				8B99AA6E2B92821900A866D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B99AA742B92821900A866D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B99AA7E2B92821900A866D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B99AA622B92821200A866D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B99AAA82B92849B00A866D7 /* GmailSignupView.swift in Sources */,
+				8B1CF56A2B9500B500A3A759 /* UserProfileView.swift in Sources */,
+				8B99AAAC2B9284C800A866D7 /* ProfileSetupView.swift in Sources */,
+				8B99AAAE2B9284F400A866D7 /* SettingupView.swift in Sources */,
+				8B99AAA62B92848700A866D7 /* LoginView.swift in Sources */,
+				8B99AA9D2B9283E300A866D7 /* User.swift in Sources */,
+				8B99AAB82B92856A00A866D7 /* Constants.swift in Sources */,
+				8B1CF5662B93947100A3A759 /* GoalSelectionView.swift in Sources */,
+				8B99AAAA2B9284AF00A866D7 /* PhoneSignupView.swift in Sources */,
+				8B99AAB02B92850400A866D7 /* DashboardView.swift in Sources */,
+				8B99AAA42B92847800A866D7 /* SplashView.swift in Sources */,
+				8B99AAB42B92854000A866D7 /* DataManger.swift in Sources */,
+				8B99AABA2B92857C00A866D7 /* Extensions.swift in Sources */,
+				8B99AAB62B92855100A866D7 /* NetworkManager.swift in Sources */,
+				8B1CF5682B95009800A3A759 /* MyAsanaView.swift in Sources */,
+				8B99AA9B2B9283B200A866D7 /* Asana.swift in Sources */,
+				8B99AAB22B92851900A866D7 /* AsanaDetailsView.swift in Sources */,
+				8B99AA6A2B92821200A866D7 /* AsanaWellApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B99AA722B92821900A866D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B99AA7B2B92821900A866D7 /* AsanaWellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B99AA7C2B92821900A866D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B99AA852B92821900A866D7 /* AsanaWellUITests.swift in Sources */,
+				8B99AA872B92821900A866D7 /* AsanaWellUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B99AA782B92821900A866D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B99AA652B92821200A866D7 /* AsanaWell */;
+			targetProxy = 8B99AA772B92821900A866D7 /* PBXContainerItemProxy */;
+		};
+		8B99AA822B92821900A866D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B99AA652B92821200A866D7 /* AsanaWell */;
+			targetProxy = 8B99AA812B92821900A866D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B99AA882B92821900A866D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B99AA892B92821900A866D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B99AA8B2B92821900A866D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsanaWell/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortraitUpsideDown;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.su-mit.AsanaWell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B99AA8C2B92821900A866D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsanaWell/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortraitUpsideDown;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.su-mit.AsanaWell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B99AA8E2B92821900A866D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.su-mit.AsanaWellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsanaWell.app/AsanaWell";
+			};
+			name = Debug;
+		};
+		8B99AA8F2B92821900A866D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.su-mit.AsanaWellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsanaWell.app/AsanaWell";
+			};
+			name = Release;
+		};
+		8B99AA912B92821900A866D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.su-mit.AsanaWellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsanaWell;
+			};
+			name = Debug;
+		};
+		8B99AA922B92821900A866D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.su-mit.AsanaWellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsanaWell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B99AA612B92821200A866D7 /* Build configuration list for PBXProject "AsanaWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B99AA882B92821900A866D7 /* Debug */,
+				8B99AA892B92821900A866D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B99AA8A2B92821900A866D7 /* Build configuration list for PBXNativeTarget "AsanaWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B99AA8B2B92821900A866D7 /* Debug */,
+				8B99AA8C2B92821900A866D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B99AA8D2B92821900A866D7 /* Build configuration list for PBXNativeTarget "AsanaWellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B99AA8E2B92821900A866D7 /* Debug */,
+				8B99AA8F2B92821900A866D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B99AA902B92821900A866D7 /* Build configuration list for PBXNativeTarget "AsanaWellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B99AA912B92821900A866D7 /* Debug */,
+				8B99AA922B92821900A866D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B99AA5E2B92821200A866D7 /* Project object */;
+}
